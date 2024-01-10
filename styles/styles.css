@@ -1,0 +1,50 @@
+/*  shared styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+}
+.banner {
+    padding: 1em 10em;
+}
+
+/* header related styles */
+header {
+    background-color: #1f2937;   
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+.menu-item {
+    display: flex;
+    gap: 20px;
+}
+.headerLogo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.menu-item a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.nav-disc {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 50%;
+    
+}
+.nav-disc div {
+    width: 50%; 
+}
+.nav-img img {
+    height: 200px;
+    object-fit: fill;
+}

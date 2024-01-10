@@ -29,7 +29,8 @@ nav {
     color: #F9FAF8;
     font-size: 24px;
 }
-.menu-item a {
+.menu-item a, 
+.nav-text p {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
@@ -38,13 +39,32 @@ nav {
     display: flex;
     justify-content: center; 
     align-items: center;
-    height: 50%;
-    
+    gap: 2em;
+    height: 50%;  
+    margin-top: 3rem;
+}
+.nav-text h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+.nav-text button {
+    color: #F9FAF8;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 16px;
 }
 .nav-disc div {
     width: 50%; 
 }
 .nav-img img {
+    width: 100%;
     height: 200px;
-    object-fit: fill;
+    border: 3px solid #F9FAF8;
+    border-radius: 15px;
 }
